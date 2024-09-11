@@ -42,3 +42,9 @@
   },
   "prettier": "adastra-prettier-config"
 }
+
+{
+  "scripts": {
+    "build": "[my-framework] build --output public"
+  }
+}
