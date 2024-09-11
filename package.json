@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "build": "[my-framework] build --output public"
+  }
+}
+
+{
   "name": "adastra-monorepo",
   "author": "Odestry",
   "private": true,
@@ -41,10 +47,4 @@
     "node": ">=14.0.0"
   },
   "prettier": "adastra-prettier-config"
-}
-
-{
-  "scripts": {
-    "build": "[my-framework] build --output public"
-  }
 }
